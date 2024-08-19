@@ -3,27 +3,37 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title> log in </title>
-	<link rel="stylesheet" href="formstyle.css">
+	<title>Login</title>
+	<link rel="stylesheet" href="loginstyle.css">
+	<script src="https://kit.fontawesome.com/f0e0853e2a.js" crossorigin="anonymous"></script>
 </head>
 <body>
-	<form action="action_page.php">
-		<div class="container">
-			<h1>Log in </h1>
-			<hr>
-			<label for="email"><b>Username</b></label>
+	<div class="container">
+	<h1> USER LOGIN</h1>
+	
+			<br>
+			<i class="fa-solid fa-user fa-4x"></i>
+			<br>
+			<br>
+			<form action="action_page.php">
+			<label for="email"></label>
 	   <input type="email" name="email" id="email" placeholder="Email Address" required>
     <br>
-	<label for="pswd">Password</label>
+	<br>
+	<label for="pswd"></label>
 	<input type="password" name="pswd" id="pswd" placeholder="Enter Password" required>
 	 <br>
-	 <button type="submit"> Log in</button>
-	 <label>
-		<input type="checkbox" checked="checked" name="remember"> Remember me 
-	 </label>
+	 <br>
+	 <button type="submit"> Login</button>
+	 <br>
+	 <label class="ck">
+		<input type="checkbox" checked="" name="remember"> Remember me 
+	
+	  <a href="#">Forget Password</a>
+	</label>
 		</div>
-		<div> hhh</div>
-		<p> Forget <Span> <a href="#">password</a></Span></p>
+		
 	</form>
+</div>
 </body>
 </html>

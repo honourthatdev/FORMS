@@ -1,0 +1,53 @@
+*{
+	width: auto;
+	height: auto;
+	text-align: center;
+}
+
+
+
+.container {
+	border: 2px solid white;
+	height: 62%;
+	width: 25%;
+	position: absolute;
+	top: 130px;
+	left: 40%;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+   text-align: center;
+   background-color: cornsilk;
+   
+}
+.container h1{
+	color: rgb(20, 19, 19);
+	text-align: center;
+	font-size: 28px;
+	font-family: 'Times New Roman', Times, serif;
+	background-color: rgba(139, 56, 56, 0.927);
+	margin-top: -10px;
+	padding: 20px;
+}
+
+
+input[type=text],input[type=tel], input[type=email],input[type=date],input[type=password],select {
+	border: 1px solid rgb(73, 73, 72);
+	width: 300px;
+    height: 32px;
+    border-radius: 3px;
+}
+button:hover{
+	background-color: rgba(139, 56, 56, 0.927);
+	color: cornsilk;
+}
+button{ 
+background-color: honeydew;
+	padding: 10px 16px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 300px;
+}
+a{
+	text-decoration: none;
+}
